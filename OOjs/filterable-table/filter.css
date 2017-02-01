@@ -1,0 +1,37 @@
+table {
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+th {
+    background-color: rgb(2, 26, 124);
+    color: white;
+}
+
+/*#todo thead th:nth-child(1) {
+   width: 200px;
+}*/
+
+#staff th {
+    padding-right: 25px;
+}
+
+span {
+    background-color: #B3EE3A;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+
+input {
+    margin-bottom: 10px;
+    height: 25px;
+}

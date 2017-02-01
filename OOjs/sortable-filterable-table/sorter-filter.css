@@ -1,0 +1,41 @@
+table {
+   text-align: left;
+   border-collapse: collapse;
+   font-family: Arial;
+}
+
+th, td {
+   border: 1px solid gray;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+th {
+   background-color: rgb(2, 26, 124);
+   color: white;
+}
+
+tr:nth-child(even) {
+   background-color: rgb(221, 221, 221);
+}
+
+#staff th {
+   padding-right: 25px;
+}
+
+span {
+   background-color: #B3EE3A;
+}
+
+input {
+   margin-bottom: 10px;
+   height: 25px;
+}
+
+.ascend {
+   background: url(ascend.png) no-repeat rgb(163, 176, 252) right;
+}
+
+.descend {
+   background: url(descend.png) no-repeat rgb(163, 176, 252) right;
+}

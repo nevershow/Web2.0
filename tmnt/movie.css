@@ -1,0 +1,106 @@
+body {
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
+    font: 8pt Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/bannerbackground.png) repeat-x;
+    height: 50px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font: bold 24pt Tahoma;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 4px gray solid;
+    overflow: hidden;
+}
+
+#rating {
+    background: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rottenbackground.png) repeat-x;
+    height: 83px;
+}
+
+#percentage {
+    color: red;
+    font: bold 48pt Verdana;
+    vertical-align: 0.2em;
+}
+
+#total {
+    color: white;
+    vertical-align: 1.5em;
+}
+
+#reviews {
+    width: 550px;
+}
+
+.left_comment, .right_comment {
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.comment {
+    background-color: #E1D697;
+    border: gray 2px solid;
+    padding: 8px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.icon, .face{
+    float: left;
+    margin-right: 5px;
+}
+
+.publication {
+    font-style: italic;
+}
+
+.one_comment {
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+#right {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+}
+
+#info {
+    padding: 10px;
+    font-family: Arial;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+#bottom {
+    background-color: #A2B964;
+    padding: 5px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#valid {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

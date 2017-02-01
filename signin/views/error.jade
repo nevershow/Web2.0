@@ -1,0 +1,12 @@
+doctype html
+html
+   head
+      link(rel="stylesheet" type="text/css" href="../stylesheets/detail.css")
+      link(href="../favicons/user.ico" rel="shortcut icon")
+      script(type="text/javascript" src="../javascripts/jquery.js")
+      script(type="text/javascript" src='../javascripts/detail.js')
+      title Detail
+   body
+     h1= message
+     h2= error.status
+     pre #{error.stack}

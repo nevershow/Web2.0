@@ -1,0 +1,41 @@
+doctype html
+html
+   head
+      link(rel="stylesheet" type="text/css" href="../stylesheets/detail.css")
+      link(href="../favicons/user.ico" rel="shortcut icon")
+      script(type="text/javascript" src="../javascripts/jquery.js")
+      script(type="text/javascript" src='../javascripts/detail.js')
+      title Detail
+   body
+      div#header
+         div#loginbox
+            p#loginuser
+               span#hello 您好!
+               span#user #{user.username}
+            button(type='button' onclick="window.location.href='/signout'") 退出
+
+         div#welcome
+            h1 用户详情
+      div#error #{error}
+
+      table
+         thead
+            tr
+               th 选项
+               th 内容
+         tbody
+            tr
+               td 用户名
+               td #{user.username}
+
+            tr
+               td 学号
+               td #{user.stuID}
+
+            tr
+               td 电话
+               td #{user.phone}
+
+            tr
+               td 邮箱
+               td #{user.email}

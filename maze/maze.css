@@ -1,0 +1,142 @@
+h1, h2 {
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+	font-family: "Century Gothic";
+}
+
+p {
+	width: 625px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Century Gothic";
+}
+
+#statu {
+	opacity: 0;
+	-webkit-transition: all 1s;
+   -moz-transition: all 1s;
+   transition: all 1s;
+}
+
+#result {
+	opacity: 1;
+	-webkit-transition: all 1.5s;
+   -moz-transition: all 1.5s;
+   transition: all 1.5s;
+}
+
+#maze {
+	margin: auto;
+	position: relative;
+	height: 300px;
+	width: 500px;
+}
+
+#maze_game {
+	margin: auto;
+	position: relative;
+	height: 300px;
+	width: 500px;
+	cursor: pointer;
+}
+
+.boundary {
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	position: absolute;
+}
+
+
+
+.wall {
+	background-color: #E70002;
+	border: 1px solid black;
+	position: absolute;
+}
+
+#boundary1 {
+	width: 150px;
+	height: 200px;
+	top: 0;
+	left: 0;
+}
+
+#boundary2 {
+	width: 201px;
+	height: 50px;
+	top: 0px;
+	left: 150px;
+	border-left: none;
+	border-right: none;
+	z-index: 1;
+}
+
+#boundary3 {
+	width: 150px;
+	height: 200px;
+	top: 0px;
+	right: 0;
+}
+
+#boundary4 {
+	width: 96px;
+	height: 150px;
+	top: 100px;
+	left: 201px;
+}
+
+#boundary5 {
+	width: 200px;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+}
+
+#boundary6 {
+	width: 100px;
+	height: 50px;
+	bottom: 0;
+	left: 200px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	z-index: 1;
+}
+
+#boundary7 {
+	width: 200px;
+	height: 50px;
+	bottom: 0;
+	right: 0;
+}
+
+#start, #end {
+	position: absolute;
+	top: 205px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	padding: 4px;
+	font-family: Arial;
+	font-size: 25pt;
+	text-align: center;
+}
+
+#start {
+	background-color: #83FF82;
+	left: 0;
+}
+
+#end {
+	background-color: #8684FF;
+	right: 0;
+}
+
+#eg {
+	margin: 0 auto;
+	width: 100px;
+	height: 25px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+}

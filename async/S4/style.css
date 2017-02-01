@@ -1,0 +1,165 @@
+* {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#at-plus-container {
+    bottom: 100px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+}
+#at-plus-container:hover {
+    bottom: 0;
+    margin-left: -100px;
+    width: 200px;
+    height: 300px;
+}
+
+#button {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#at-plus-container:hover #button {
+    top: 170px;
+    left: 100px;
+}
+
+.apb {
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(160, 160, 190, 1) url(images/atplus_white.png) no-repeat center;
+    background-size: 85%;
+    position: absolute;
+    -webkit-transition: all 0.7s 0.5s;
+    -moz-transition: all 0.7s 0.5s;
+    transition: all 0.7s 0.5s;
+}
+#at-plus-container:hover .apb {
+    top: -10px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    background: rgba(48, 63, 159, 1) url(images/atplus_green.png) no-repeat center;
+    background-size: 77%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#info-bar {
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(48, 63, 159, 1);
+}
+#at-plus-container:hover #info-bar{
+    top: -150px;
+    left: -50px;
+    width: 130px;
+    height: 130px;
+}
+#sum {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(50, 207, 154, 1);
+    position: absolute;
+    top: 35px;
+    right: 37px;
+}
+#seq {
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(50, 207, 154, 1);
+    position: absolute;
+    top: -200px;
+    right: -40px;
+}
+
+.button {
+    list-style: none;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(48, 63, 159, 1);
+    background-size: 50%;
+    opacity: 0;
+    position: absolute;
+}
+
+.wait, .clicked {
+    background-color: rgba(126, 126, 126, 0.9);
+}
+#button .wait {
+    background-color: rgba(126, 126, 126, 0.9);
+}
+
+.abcde {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(50, 207, 154, 1);
+    position: absolute;
+    top: 3px;
+    right: 7px;
+}
+
+.num {
+    color: white;
+    font-size: 12px;
+    top: -2px;
+    right: -6px;
+    position: absolute;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: none;
+}
+
+#at-plus-container:hover .button {
+    opacity: 1;
+}
+#at-plus-container:hover .A {
+    left: -62px;
+    top: -35px;
+}
+#at-plus-container:hover .B {
+    left: -72px;
+    top: 0px;
+}
+#at-plus-container:hover .C {
+    left: -58px;
+    top: 35px;
+    overflow: visible;
+}
+#at-plus-container:hover .D {
+    left: -25px;
+    top: 56px;
+}
+#at-plus-container:hover .E {
+    left: 15px;
+    top: 53px;
+}

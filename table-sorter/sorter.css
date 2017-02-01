@@ -1,0 +1,41 @@
+* {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+table {
+   text-align: left;
+   border-collapse: collapse;
+   font-family: Arial;
+}
+
+th, td {
+   border: 1px solid gray;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+th {
+   background-color: rgb(2, 26, 124);
+   color: white;
+   cursor: pointer;
+}
+
+#staff th {
+   padding-right: 25px;
+}
+
+.ascend {
+   background: url(ascend.png) no-repeat rgb(163, 176, 252) right;
+}
+
+.descend {
+   background: url(descend.png) no-repeat rgb(163, 176, 252) right;
+}
+
+tr:nth-child(even) {
+   background-color: rgb(221, 221, 221);
+}

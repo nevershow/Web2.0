@@ -1,0 +1,31 @@
+doctype html
+html
+   head
+      link(rel="stylesheet" type="text/css" href="../stylesheets/signin.css")
+      link(href="../favicons/signin.ico" rel="shortcut icon")
+      script(type="text/javascript" src="../javascripts/jquery.js")
+      script(type="text/javascript" src='../javascripts/signin.js')
+      script(type="text/javascript" src='../javascripts/checkform.js')
+      title Signin
+   body
+      div#content
+         div#header
+            span#welcome 欢迎登录
+
+         if error
+            p#error!= error
+         form(method='post')
+            label.spc(for='username') 用户名
+            input(type="text" id='username' name='username' maxlength='18' placeholder='6~18位英文字母、数字或下划线,英文字母开头' value=user.username)
+            span.error
+            br
+
+            label(for='password') 密码
+            input(type='password' id='password' name='password' maxlength='12' placeholder='6~12位数字、大小写字母、中划线、下划线' value=user.password)
+            span.error
+            img(src='../images/closeeye.png')
+            br
+
+            button#submit(type='submit') 登录
+            span#isRegisted 没有账号?
+               a(href='regist') 立即注册>>

@@ -1,0 +1,134 @@
+* {
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: #333;
+}
+
+body {
+   background: #bee1f5 url("../images/registBG.png") repeat-x scroll 0 0;
+}
+
+#content {
+   border: 1px solid white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   padding-bottom: 30px;
+   width: 50%;
+   background: url("../images/signinBG.png") repeat-x scroll center bottom;
+   position: relative;
+}
+
+#header {
+   background: #bee1f5 url("../images/bg_reg_wave.png") repeat-x scroll center bottom;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   margin-bottom: 20px;
+}
+
+#welcome {
+   height: 75px;
+   letter-spacing: 0.5em;
+   font-size: 40px;
+}
+
+a {
+   text-decoration: none;
+   color: blue;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+#isRegisted {
+   font-size: 13px;
+   position: absolute;
+   margin-left: 5px;
+   bottom: 30px;
+}
+
+label {
+    display: inline-block;
+    font-size: 18px;
+    text-align: right;
+    width: 145px;
+}
+
+input {
+   margin: 10px;
+   width: 350px;
+   display: inline-block;
+   height: 45px;
+   border: 1px solid #DDDDDD;
+   background-color: #E1ECF4;
+   font-size: 23px;
+}
+
+.errorinput {
+   margin: 10px;
+   width: 350px;
+   display: inline-block;
+   height: 45px;
+   border: 2px solid red;
+   background-color: #E1ECF4;
+   font-size: 23px;
+}
+
+input:focus {
+   border: 2px solid #488EE7;
+}
+
+.error {
+   font-size: 18px;
+   color: red;
+}
+
+#error {
+   font-size: 20px;
+   color: red;
+   text-align: center;
+   letter-spacing: 0.2em;
+}
+
+button {
+   width: 210px;
+   height: 50px;
+   line-height: 50px;
+   background: #45b0ff;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 25px;
+   text-align: center;
+   border: 1px;
+   cursor: pointer;
+   margin-top: 15px;
+   margin-left: 160px;
+}
+
+button:hover {
+   background: #65beff;
+}
+
+img {
+   position: absolute;
+   right: 175px;
+   bottom: 115px;
+   width: 24px;
+   height: 24px;
+   cursor: pointer;
+}
+
+body ::-webkit-input-placeholder {
+   font-size: 15px;
+}
+
+body ::-moz-placeholder {
+   font-size: 15px;
+}
+
+body :-ms-input-placeholder {
+   font-size: 15px;
+}

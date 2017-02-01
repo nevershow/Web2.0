@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Sublime Text 3" />
+  <link rel="stylesheet" type="text/css" href="mole.css">
+  <script type="text/javascript" src="mole.js"></script>
+  <title>Mole</title>
+</head>
+<body>
+   <h1>Whac-a-mole</h1>
+   <p>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</p>
+
+   <div id="statu">
+      <input id="start_stop" value="Start Game | Stop Game" readonly="readonly"/>
+
+      <span class="time">
+         <label>Time: </label><input id="time" type="text" disabled="disabled" size="4" value="" />
+      </span>
+
+      <input id="game_statu" type="text" value="Game Over" disabled="disabled">
+
+      <span class="score">
+         <label>Score: </label><input id="score" type="text" disabled="disabled" size="4" value="" />
+      </span>
+   </div>
+
+   <div id="game_area"></div>
+
+   <div id="instruction">
+      <p>Instructions: </p>
+      <ul>
+      <li>1. Click on the radio button(moles) as they are selected randomly by the computer.</li>
+         <li>2. 1 point per hit, minus 1 point per miss.</li>
+      </ul>
+   </div>
+</body>

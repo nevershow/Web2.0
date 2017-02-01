@@ -1,0 +1,103 @@
+* {
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: #333;
+}
+
+body {
+   background: #bee1f5 url("../images/registBG.png") repeat-x scroll 0 0;
+}
+
+#header {
+   background: url("../images/bg_reg_wave.png") repeat-x scroll center bottom;
+   padding-top: 7px;
+   padding-bottom: 10px;
+   height: 50px;
+}
+
+#loginbox {
+   text-align: right;
+   position: absolute;
+   top: 5px;
+   right: 20px;
+}
+
+#loginuser span {
+   color: blue;
+}
+
+#loginuser #hello {
+   color: #333;
+}
+
+#welcome {
+   height: 60px;
+   letter-spacing: 0.5em;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 60px;
+}
+
+button {
+   width: 50px;
+   height: 25px;
+   background: #BBB;
+   border-radius: 5px;
+   font-size: 18px;
+   text-align: center;
+   border: 1px;
+   cursor: pointer;
+   margin-top: 5px;
+}
+
+button:hover {
+   color: red;
+   background-color: #AAA
+}
+
+table {
+   color: #222;
+   border-radius: 5px;
+   border: 1px solid #a6c9e2;
+   margin: 30px auto;
+   background: url("../images/signinBG.png") repeat-x scroll center bottom;
+   border-collapse: separate;
+   border-spacing: 2px;
+}
+
+thead {
+   background: url("../images/thBG.png") 50% 50% repeat-x;
+}
+
+th {
+   border: 1px solid #a6c9e2;
+   color: white;
+   letter-spacing: 0.5em;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+
+td {
+   border: 1px solid #a6c9e2;
+   text-align: center;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+
+tr:nth-child(even) {
+   background-color: #E6E6E6;
+}
+
+p #user{
+   color: blue;
+}
+
+#error {
+   color: red;
+   font-size: 25px;
+   text-align: center;
+   letter-spacing: 0.2em;
+}
